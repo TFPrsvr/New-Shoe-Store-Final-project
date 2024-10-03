@@ -1,0 +1,299 @@
+/* Desktop View */
+@media(min-width: 750px){
+
+    .CartDDCont{
+        height: 190px;
+        width: 920px;
+        border-radius: 15px;
+        color: hsl (0, 0% 0%);
+        background-color: white;
+        z-index: 6;
+        border: blueviolet 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: relative;
+        top: -300px;
+        left: -100px;
+    }
+
+    .noShow{
+        /* border: blue 2px solid; */
+        height: 60px;
+        width: 90px;
+        font-size: 20px;
+        color: grey;
+        background-color: white;
+        position: relative;
+        top: -65px;
+        left: -110px;
+
+    }
+
+    .flex{
+        /* border: red 2px solid; */
+        background-color: white;
+        z-index: 6;
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: 20px;
+        left: -150px;
+    }
+    
+    .item{
+        display: flex;
+        position: relative;
+        top: -30px;
+        left: -30px;
+        background-color: white;
+    }
+
+    p{
+        all: unset;
+    }
+
+    .productTitle{
+        border: hotpink 2px solid;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        color: black;
+        height: 30px;
+        width: 1220px;
+        font-size: 10px;
+        font-weight: 700;
+        z-index: 7;
+        position: relative;
+        top: -70px;
+        left: -30px;
+    }
+
+    .cartInfo{
+        border: blue 2px solid;
+        background-color: white;
+        height: 50px;
+        z-index: 7;
+        width: 50px;
+        font-weight: 600;
+        color: lightgrey;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .ddQuant{
+          border: red 2px solid;
+          color: black;
+          font-weight: 700;
+          z-index: 7;
+    }
+
+    .trash{
+        height: 25px;
+        width: 25px;
+        z-index: 7;
+        color: black;
+        background-color: white;
+        /* border: hotpink 2px solid; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .checkout{
+       border: black 2px solid;
+       background-color: orange;
+       color: white;
+       z-index: 7;
+    }
+
+    .emptyCart{
+        background-color: white;
+        color: black;
+        height: 90px;
+        width: 500px;
+        border: blueviolet 2px solid;
+        z-index: 7;
+        position: relative;
+    }
+
+}
+
+
+
+
+
+
+
+/* _______________________________________________________________________ */
+
+
+
+
+
+
+/* Mbl View */
+@media(max-width: 478px){
+ .CartDDCont{
+    display: flex;
+    flex-direction: column;
+    height: 210px; 
+    width: 400px;
+    color: black;
+    z-index: 7;
+    border-radius: 13%;
+    /* border: black 3px solid; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 100px;
+    right: -0px;
+ }
+
+ /* .closeBtn{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    position: relative;
+    top: -50px;
+    right: 60px;
+ }
+
+ .closeIcon{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+ } */
+
+ .flex{
+    /* border: purple 2px solid; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 380px;
+    height: 160px;
+    position: relative;
+    top: -50px;
+    z-index: 7;
+}
+
+.noShow{
+    display: flex;
+    flex-direction: row;
+    height: 0px;
+    width: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    right: 180px; 
+    top: -10px;
+    border-bottom: grey 1px solid;
+    z-index: 7;
+}
+
+.item{
+    background-color: transparent;
+    display: flex;
+    height: 10px;
+    width: 10px;
+    color: black;
+    font-size: large;
+    position: relative;
+    top: 40px;
+    z-index: 7;
+}
+
+
+.product{
+    all: unset;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: small;
+    height: 30px;
+    width: 240px;
+    color: grey;
+    position: relative;
+    right: -63px;
+    top: 5px;
+    z-index: 7;
+}
+
+.cartInfo{
+    /* border: hotpink 2px solid; */
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    font-weight: 400;
+    height: 25px;
+    width: 360px;
+    position: relative;
+    top: -15px;
+    left: 70px;
+    z-index: 7;
+}
+
+.ddQuant{
+    font-weight: 700;
+    display: flex;
+    position: relative;
+    right: -200px;
+    top: -80px;
+    z-index: 7;
+}
+.trash{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: -68px;
+    left: 167px; z-index: 7;
+}
+
+.checkout{
+    /* border: navy 2px solid; */
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    height: 70px;
+    width: 300px;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: -100px;
+    left: 35px;
+    z-index: 7;
+}
+
+.emptyCart{ 
+    display: flex;
+    flex-direction: row;
+    /* border: black 2px solid; */
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 165px;
+    position: relative;
+    top: 90px;
+    left: 95px;
+    z-index: 7;
+  }
+}

@@ -1,0 +1,245 @@
+/* Desktop View */
+@media(min-width: 780px){
+
+    .product{
+        height: 600px;
+        width: 490px;
+        z-index: 6;
+        /* border: yellowgreen 2px solid; */
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -20px;
+        left: 45px;
+    }
+    
+    .info{
+        height: 500px;
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+    }
+    .SCo{
+        height: 40px;
+        width: 480px;
+        color: hsl(26, 100%, 55%);
+        font-weight: 700;
+        font-size: 20px;
+        display: flex;       
+        position: relative;
+        top: 30px;
+        left: 10px;
+    }
+    
+    .title{
+        height: 130px;
+        width: 279px;
+        color: black;
+        font-weight: 700;
+        font-size: x-large; 
+        position: relative;
+        left: 7px;   
+        top: 45px;     
+    }
+    
+    .desc{
+        height: 115px;
+        line-height: 40px;
+        width: 430px;
+        color: hsl(220, 14%, 75%);
+        font-size: 16px;
+        font-family: cursive;
+        font-weight: 600;
+        position: relative;
+        top: 40px;
+    }
+
+    .priceNav{
+        height: 70px;
+        width: 490px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: -80px;
+    }
+
+    .price{
+        height: 70px;
+        width: 70px;
+        color: black;
+        font-size: x-large;
+        font-weight: 700;
+        margin-right: 15px;
+        margin-left: 25px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .saleOff{
+        color: orange;
+        background-color: hsl(25, 100%, 94%);
+        height: 30px;
+        width: 50px; 
+        margin-left: 7px;
+        margin-top: 10px;      
+        font-weight: 800; 
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        position: relative;
+        top: 10px;
+        left: 15px;
+    }
+    .empty{
+        height: 70px;
+        width: 230px;
+    }
+
+    .priceOG{
+        height: 70px;
+        width: 90px;
+        font-size: smaller;
+        color:  lightgray;
+        font-weight: 600;
+        text-decoration: line-through;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        top: 60px;
+        left: -405px;
+    }
+    
+    .cart{
+        height: 250px;
+        width: 490px;
+        display: flex;
+        position: relative;
+        top: -75px;
+    }
+}
+
+/* Mbl View */
+@media(max-width: 478px){
+
+    .product{
+        height: 250px;
+        width: 475px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: -10px;
+
+    }
+
+    .info{
+        height: 165px;
+        width: 475px;
+        position: relative;
+        top: 10px;
+    }
+
+    .SCo{
+        height: 6%;
+        width: 475px;
+        color:  hsl(26, 100%, 55%);
+        font-weight: 700;
+        font-size: 12px;
+        position: relative;
+        left: -240px;
+        top: -10px;
+    }
+
+    .title{
+        display: flex;
+        height: 25%;
+        width: 240px;
+        margin-top: 0px;
+        padding: 0px;
+        flex-wrap: wrap;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: left;
+        color: hsl (0, 0% 0%);
+        position: relative;
+        left: -77px;
+    }
+
+    .desc{
+        /* border: hotpink 2px solid; */
+        height: 125px;
+        width: 440px;
+        color:  hsl(220, 14%, 75%);
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+        font-size: 16px;
+        position: relative;
+        top: 35px;
+        left: -85px;
+    }
+
+    .priceNav{
+        height: 45px;
+        width: 460px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+        position: relative;
+        top: 250px;
+        left: -530px;
+    }
+
+    .price{
+        color: hsl (0, 0% 0%);
+        font-size: large;
+        height: 40px;
+        position: relative;
+
+    }
+
+     .saleOff{
+        color: hsl(26, 100%, 55%);
+        background-color:  hsl(25, 100%, 94%);
+        height: 20px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 40px;
+        font-size: x-small;
+        position: absolute;
+        left: 125px;
+    } 
+
+    .saleOff text{
+        height: 15px;
+    }
+
+     .empty{
+        width: 125px;
+    } 
+
+    .priceOG{
+        color: hsl(220, 14%, 75%);
+        font-size: small;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-decoration: line-through;
+        position: relative;
+        top: -33px;
+        right: -330px;
+    }
+
+    .cart{
+        height: 185px;
+        width: 475px;
+        display: flex;
+        position: relative;
+        left: -630px;
+        top: 300px;
+    }
+     
+}

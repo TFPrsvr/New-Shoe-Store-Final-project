@@ -1,0 +1,251 @@
+/* Desktop View */
+@media(min-width: 780px){
+  .cartComp{
+    height: 20px;
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+    top: 40px;
+  }
+
+  button{
+    all: unset;
+    background-color: transparent;
+    height: 0px;
+    width: 0px;
+  }
+
+  .incrementor{
+    height: 50px;
+    width: 180px;
+    background-color: hsl(220, 14%, 75%, 0.30);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -10px;
+  }
+
+  .plusBtn img{
+    background-color: transparent;
+    position: relative;
+    height: 20px;
+    width: 15px;
+    top: 25px;
+    left: 145px;
+  }
+
+  .minusBtn,
+  .plusBtn, 
+  .quantity{
+    /* background-color:  hsl(220, 14%, 75%, 0.30); */
+    color: orange;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quantity{
+    width: 5px;
+    background-color:  transparent;
+    color: black;
+    font-weight: 600;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    left: 85px;
+    top: -1px;  
+  }
+
+  .minusBtn img{
+    background-color: transparent;
+    height: 5px;
+    width: 20px;
+    position: relative;
+    top: 24px;
+    left: 23px;
+  }
+
+.cart{
+  display: flex;
+  height: 80px;
+  width: 80px;
+  flex-direction: row;
+  position: relative;
+  top: -60px;
+}
+
+  .addToCart{
+    position: relative;
+    right: -200px;
+    top: -60px;
+  }
+  
+  .add2Cart{
+    height: 60px;
+    width: 260px;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    right: -208px;
+    bottom: 65px;
+  }
+
+  .cartDD{
+    height: 900px;
+    width: 1200px;
+    background-color: hsl (0, 0%, 0%, 0.75);
+    display: flex;
+    z-index: 6;
+  }
+}
+
+
+
+
+
+
+
+/* _____________________________________________________ */
+
+
+
+
+
+
+
+
+
+/* Mbl View */
+@media(max-width: 478px){
+    .cartComp{
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      height: 95px;
+      position: relative;
+      top: 40px;
+    }
+
+    .incrementor{
+      display: flex;
+      flex-direction: row;
+      height: 75px;
+      width: 395px;
+      border-radius: 10px;      
+      background-color: hsl(220, 14%, 75%, 0.30);
+      overflow: hidden;
+      justify-content: space-evenly;
+      align-items: center;
+      align-content: center;
+      position: relative;
+      top: 0px;
+      left: 0px;
+    }
+  
+    .plusBtn{
+      color: hsl(26, 100%, 55%);
+      height: 15px;
+      width: 15px;
+      background-color: transparent;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      /* flex-wrap: wrap; */
+      position: absolute;
+      /* right: 90px;   */
+      bottom: 5px;    
+      right: 25px;
+    }
+
+    button{
+      background-color: transparent;
+    }
+
+    .minusBtn button {
+     background-color: transparent;
+     color: hsl(26, 100%, 55%);
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     left: 130px;  
+     bottom: -15px;   
+    }
+
+    .minusBtn,
+    /* .plusBtn,  */
+    .quantity{
+      display: flex;
+      flex-direction: row;
+      height: 8px;
+      width: 15px;
+      position: relative;
+      background-color: transparent;
+      left: -40px;
+    }
+
+    .quantity{
+      display: flex;
+      flex-direction: row;
+      height: 60px;
+      color: hsl (0, 0% 0%);
+      font-weight: 800;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      left: -80px;
+    }
+
+    .Cart{ 
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      left: 0px;
+      bottom: -40px;
+      height: 105px;
+      width: 460px; 
+    }
+
+    .add2Cart{
+      background-color: hsl(26, 100%, 55%);
+      height: 45px;
+      width: 400px;
+      border-radius: 5px;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      font-size: x-small;
+    }
+
+    .addCart{
+      display: flex;
+      height: 8px;
+      width: 20px;
+      justify-content: center;
+      align-self: center;
+    }
+
+    text{
+      height: 20px;
+      width: 20px;
+    }
+
+    .lightboxCont{
+      z-index: 6;
+    }
+}

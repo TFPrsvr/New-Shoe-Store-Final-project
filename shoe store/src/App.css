@@ -1,0 +1,95 @@
+#root {
+  background-color: white;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* Desktop View */
+@media(min-width: 780px){
+
+  .AppCont{
+    background-color: white;
+    height: 900px;
+    width: 1200px;
+    /* border: red 2px solid; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .headerCont{
+    height: 125px;
+    width: 1200px;
+    /* border: purple 2px solid; */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .galProdCont{
+    height: 900px;
+    width: 1100px;
+    /* border: peru 2px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  .galleryCont{
+    height: 750px;
+    width: 490px;
+    /* border: orange 2px solid; */
+  }
+  
+  .productCont{
+    display: flex;
+    height: 750px;
+    width: 490px;
+   
+  }
+    
+  }
+
+  /* Mbl View */
+
+  @media(max-width: 478px){
+
+    .AppCont{
+      display: flex;
+      flex-direction: row;
+      height: 800px;
+      width: 470px;
+    }
+
+    .headerCont{
+      display: flex;
+      width: 470px;
+    }
+
+    .galProdCont{
+      display: flex;
+      flex-direction: column;
+      height: 475px;
+      width: 470px;
+      z-index: 3;
+      }
+      
+      .galleryCont{
+        display: flex;
+        height: 200px;
+        width: 400px;
+      }
+
+    .productCont{
+      display: flex;
+      width: 450px;
+      position: relative;
+      top: 80px;
+      left: -380px;
+    }
+
+  }

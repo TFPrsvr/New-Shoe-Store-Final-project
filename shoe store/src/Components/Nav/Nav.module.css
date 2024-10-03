@@ -1,0 +1,109 @@
+/* Desktop View */
+@media(min-width: 570px){
+
+    .navComp{
+        height: 35px;
+        width: 470px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .navMenuIcon img{
+        display: none;
+    }
+    
+     .menuUL{
+        display: none;
+        } 
+
+      .menuList{
+         display: none;
+    } 
+
+     .menuUL, 
+    .menuList{
+        display: none;
+    }  
+
+     ul,
+    .menuUL{
+        display: none; 
+       } 
+
+     li,
+    .menuList{
+        display: none;
+           }
+    } 
+
+        /* Mbl view */
+        @media(max-width: 478px){
+            .navComp{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 100px;
+                width: 105px;
+                color: hsl (0, 0% 0%);
+            }
+
+            .navMenuIcon{
+                display: flex;
+                height: 20px;
+                width: 25px;
+                margin-top: 1px;
+                }
+
+             button, img{
+                display: flex;
+                flex-wrap: wrap;
+                height: 55px;
+                width: 55px;
+              }
+
+            .close{
+                background-color: white;
+                position: relative;
+                top: 2px;
+                bottom: 15px;
+            }
+
+            ul{
+                background-color: white;
+                height: 800px;
+                width: 200px;
+                list-style: square;
+            }
+
+            .menuUL{
+                height: 100px;
+                width: 100px;
+                display: flex;
+                flex-direction: column;
+                list-style: square;
+                line-break: loose;
+                justify-content: space-between;
+                align-items: center;
+                align-content: center;  
+                background-color: white;
+                position: relative;
+                left: -5px;
+            }
+
+            .menuList{
+                display: flex;
+                flex-direction: row;
+                height: 1205px;
+                width: 205px; 
+                background-color: white; 
+                align-content: center;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+                left: 5px;
+                bottom: -10px;
+                z-index: 3;
+            }                         
+        }
